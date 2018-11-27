@@ -1,0 +1,149 @@
+<!DOCtype html>
+
+<html lang="en">
+    <head>
+       
+        <title>Contact Troop 313</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="images/favicon.ico">
+	    <link rel="stylesheet" href="styles/normalize.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="styles/contactstyle.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        
+    </head>
+    
+    <body>
+       <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+       
+        <div id="logo_patch"><img src="images/patch_org.gif" height="80px" width="150px"></div>
+        
+        <div class="navbar" id="mynavbar">
+                <a href="index.html">Home</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Troop Information 
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Why join scouting?</a>
+                        <a href="#">Troop Calendar</a>
+                        <a href="#">Event Calendar</a>
+                        <a href="camping.html">Camping Information</a>
+                        <a href="#">High Adventure</a>
+                    </div>
+                    </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Scout Resources 
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Court of Honor</a>
+                        <a href="#">Rank Requirements</a>
+                        <a href="#">Merit Badge Information</a>
+                        <a href="#">Council Camp Properties</a>
+                        <a href="#">Scout Leadership Job Descriptions</a>
+                        <a href="#">New Scout/First Year Program</a>
+                        <a href="#">Scout Master Minute</a>
+                        <a href="#">Guidance</a>
+                        <a href="#">Outing Planning Tools</a>
+                        <a href="#">Eagle Scout Project Showcase</a>
+                    </div>
+                    </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Parent Resources 
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Forms &amp; Lists</a>
+                        <a href="#">Leadership</a>
+                        <a href="#">Policies &amp; Procedures</a>
+                        <a href="#">Transportation Guidelines</a>
+                    </div>
+                    </div>
+                <a href="contact.html"class="active">Contact Us</a>
+              <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+
+       <script>
+            function myFunction() {
+                var x = document.getElementById("mynavbar");
+                if (x.className === "navbar") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "navbar";
+                }
+            }
+        </script>
+       
+        <header>
+            <h1>Contact Us</h1>
+            <h2>Troop 313<br>
+            1234 Manchester<br>
+            Des Peres, MO 63131<br>
+            Scoutmaster<br>
+            Jim Riddle<br>
+            Phone Number: 314.614.0622<br>
+            E-mail: scoutmaster@troop313.org<br><br>
+                Click <a href="#">here</a> for directions to Des Peres City Hall.<br>  The meeting is held downstairs in the lower level.</h2>
+        </header>
+        <section id="header2">
+            <h1>Visit Us</h1>
+            <p>Troop meetings are usually held on the 2nd and 4th Wednesday of every month at 7:00 PM in the basement of Des Peres City Hall.  Go to the <a href="#">calendar</a> to see the schedule.
+                <br><br>
+                It will be great to meet
+                you and answer any
+                questions you have about
+                Troop 313 or Boy Scouts
+                in general.  Hope to see
+                you soon!<br><br>
+                Let us know if you are coming by emailing Scoutmaster Jim Riddle at scoutmaster@troop313.org so that we can have a packet of information ready for you.</p>
+          
+        
+        </section>
+        <section id="aside1">
+           <img src="images/contact.jpeg">
+        </section>
+        <section id="aside2">
+            <h1>How to join?</h1>
+             <p>You must be a boy who has completed the fifth grade or is 11 years old, or has earned the Arrow of Light Award, but is under 18 years old.  Everyone is welcome.<br><br>
+             Join with a friend!<br><br>
+             See our NEW SCOUT information coming in December.</p>
+            
+        </section>
+        
+        <section id="calendar">
+            <img src="images/asidecalendar.png" class="respimage"
+             width="200" height="600">
+            <p><a href="#">Full Calendar</a></p>
+        </section>
+       
+        <section id="aside4">
+           <img src="images/BSAlogo.png">
+           </section>
+        <footer>
+            <p>Copyright - Troop 313 - Des Peres, MO - Boy Scouts of America - 
+            <a href="#">Disclaimer</a></p>
+        </footer>
+ <script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+    </body>
+</html>

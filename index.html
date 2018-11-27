@@ -1,0 +1,188 @@
+<!DOCtype html>
+
+<html lang="en">
+    <head>
+       
+        <title>Troop 313 Website</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="images/favicon.ico">
+	    <link rel="stylesheet" href="styles/normalize.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="styles/indexstyle.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <script     src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+         <script>
+            $(document).ready(function(){
+              $('.slider ul').bxSlider({
+                auto: true,
+                slideWidth: 350,
+                slideMargin: 0
+                });
+            });
+          </script>
+
+    </head>
+    
+    <body>
+       <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+       
+        <div id="logo_patch"><img src="images/patch_org.gif" height="80px" width="150px"></div>
+        
+        <div class="navbar" id="mynavbar">
+                <a href="index.html" class="active">Home</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Troop Information 
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Why join scouting?</a>
+                        <a href="#">Troop Calendar</a>
+                        <a href="#">Event Calendar</a>
+                        <a href="camping.html">Camping Information</a>
+                        <a href="#">High Adventure</a>
+                    </div>
+                    </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Scout Resources 
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Court of Honor</a>
+                        <a href="#">Rank Requirements</a>
+                        <a href="#">Merit Badge Information</a>
+                        <a href="#">Council Camp Properties</a>
+                        <a href="#">Scout Leadership Job Descriptions</a>
+                        <a href="#">New Scout/First Year Program</a>
+                        <a href="#">Scout Master Minute</a>
+                        <a href="#">Guidance</a>
+                        <a href="#">Outing Planning Tools</a>
+                        <a href="#">Eagle Scout Project Showcase</a>
+                    </div>
+                    </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Parent Resources 
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Forms &amp; Lists</a>
+                        <a href="#">Leadership</a>
+                        <a href="#">Policies &amp; Procedures</a>
+                        <a href="#">Transportation Guidelines</a>
+                    </div>
+                    </div>
+                <a href="contact.html">Contact Us</a>
+              <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+
+       <script>
+            function myFunction() {
+                var x = document.getElementById("mynavbar");
+                if (x.className === "navbar") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "navbar";
+                }
+            }
+        </script>
+       
+        <div class="slider">
+               <ul>
+                  <li><img src="images/canoe.jpg" class="respimage"
+                  height="250" width="350" ></li>
+                   <li><img src="images/coh.gif" class="respimage" ></li>
+                   <li><img src="images/sailing.jpg" class="respimage" height="250" width="350" ></li>
+               </ul>
+        </div>
+        
+        <div id="pic"><img src="images/canoe.jpg" alt="picture of canoe"></div>
+        
+        <header>
+            <h1>About Troop 313</h1>
+            <p>TROOP 313 is a boy run troop, chartered by Three Thirteen Dad’s Club in Des Peres, Missouri.  Our troop is an important part of the community.  Over the past 65 years many scouts have been a part of our troop.  We invite you to join us.<br><br>
+
+            The MISSION of the Boy Scouts of America is to prepare young people to make ethical and moral choices over their lifetimes by instilling in them the values of the Scout <a href="#">Oath and Law.</a></p>
+        </header>
+        <section id="aside1">
+            <h1>Troop 313</h1>
+            <p>12323 Manchester<br>
+                Des Peres, MO<br>
+                63131<br><br>
+                Scoutmaster<br>
+                Jim Riddle<br>
+                314.514.0622</p>
+        </section>
+        <section id="aside2">
+            <h1>New to Scouts?</h1>
+            <p>Visit one of our Troop 
+                meetings usually on the 
+                2nd and 4th Wednesday
+                of every month at 7:00
+                PM in the basement of 
+                Des Peres City Hall.
+                <br><br>
+                It will be great to meet
+                you and answer any
+                questions you have about
+                Troop 313 or Boy Scouts
+                in general.  Hope to see
+                you soon!</p>
+        </section>
+        <section id="aside3">
+            <h1>Ready to Join?</h1>
+            <br>
+            <h2><a href="contact.html">Click here</a></h2>
+        </section>
+        <section id="calendar">
+            <img src="images/asidecalendar.png" class="respimage" 
+             width="200" height="600">
+            <p><a href="#">Full Calendar</a></p>
+        </section>
+        <section id="events">
+            <h1>Upcoming Events:</h1>
+            <ul>
+                <li><span class="date">November 9, 2018</span><br>
+                <span class="event_title">Lock in</span><br>Starts:  6:00pm<br>
+                Ends:  November 10, 2018 at 8:30 am<br><br>
+                Location: St. Paul's Lutheran Church, 12345 Manchester Rd, St. Louis, MO 63131<br><br>Description:  Campmaster: Dylan W.<br>Adult Advisor:  Mrs. Margie Riddle<br><br>We will be taking three merit badges at the Lock in.  The merit badges will be First Aid, Scout Heritage and Communication.  Breakfast will be provided.  $12. <br><br>Deadline for sign-up:  November 5<br>
+                <span class="more_details">More details...</span><br></li><br>
+                <li><span class="date">November 12, 2018</span><br>
+                <span class="event_title">Committe Meeting &amp; Parent/Leader Meeting</span><br>Starts:  6:30pm<br>
+                Ends:  November 12, 2018 at 8:00 am<br><br>
+                Location: Des Peres City Hall, 12325 Manchester Rd, St. Louis, MO 63131<br><br>Description: All Parents are encouraged to attend the combined meeting beginning at 7pm to learn about the Troop and Crew Program.<br><br>Committee Meeting begins at 6:30 pm<br>Conbined Parent/Leader Meeting begins at 7 pm.<br>
+                <span class="more_details">More details...</span></li>
+            </ul>
+        </section>
+        <section id="aside4">
+           <img src="images/BSAlogo.png">
+           </section>
+        <footer>
+            <p>Copyright - Troop 313 - Des Peres, MO - Boy Scouts of America - 
+            <a href="#">Disclaimer</a></p>
+        </footer>
+ <script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+    </body>
+</html>
